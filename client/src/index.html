@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="theme-color" content="rgb(63,81,181)">
     <title>Title</title>
     <link rel="stylesheet" href="../bower_components/angular-material/angular-material.css">
 </head>
@@ -17,7 +18,7 @@
             <ng-md-icon icon="add"></ng-md-icon>
         </md-button>
         <md-list layout="column">
-            <md-list-item class="md-2-line " ng-repeat="w in wc.words">
+            <md-list-item class="md-2-line" md-ink-ripple ng-repeat="w in wc.words">
                 <div class="md-list-item-text">
                     <h3>{{w.word}}</h3>
                     <p>{{w.translate}}</p>
