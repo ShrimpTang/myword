@@ -1,4 +1,4 @@
-angular.module('word', [])
+angular.module('word', ['ngMaterial'])
     .controller('wordCtrl', function ($http) {
         var vm = this;
 
